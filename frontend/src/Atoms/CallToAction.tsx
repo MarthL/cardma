@@ -6,9 +6,8 @@ export const CallToAction = () => {
   return (
     <React.Fragment>
       <Button
-        fullWidth
-        variant="contained"
-        sx={{ fontWeight: 'bold' }}
+        variant="outlined"
+        sx={{ fontWeight: 'bold', backgroundColor: 'white', color: '#00628c' }}
         startIcon={<AddToHomeScreen />}
       >
         AJOUTER AU REPERTOIRE

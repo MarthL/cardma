@@ -6,6 +6,9 @@ import { Title } from "../Atoms/Title";
 import { CallToAction } from "../Atoms/CallToAction";
 import { QuoteCustom } from "../Atoms/QuoteCustom";
 import { LinkCustom } from "../Atoms/LinkCustom";
+import { Estatelink } from "../Atoms/Estatelink";
+import { QrCodeCustom } from "../Atoms/QRCodeCustom";
+import { Members } from "../Atoms/Members";
 
 export const Main = () => {
   const containerStyle = {
@@ -44,6 +47,19 @@ export const Main = () => {
           <LinkCustom icon="Instagram" value="Instagram" color="#DD2A7B" />
           <LinkCustom icon="FacebookOutlined" value="Facebook" />
         </Box>
+        <Box display={'flex'} justifyContent={'center'} mt={3}>
+          <Estatelink
+            linkRealEstate="https://www.google.com"
+            linkOpinions="https://www.google.com"
+          />
+        </Box>
+        <Box display={'flex'} justifyContent={'center'} mt={3} mb={5}>
+          <QrCodeCustom value="https://www.google.com" />
+        </Box>
+        <Box mt={5} mb={3}>
+          <Members />
+        </Box>
+
       </Container>
     </React.Fragment >
   )

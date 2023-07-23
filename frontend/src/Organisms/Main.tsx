@@ -13,12 +13,15 @@ import { Members } from "../Atoms/Members";
 export const Main = () => {
   const containerStyle = {
     borderRadius: '25px',
-    background: 'linear-gradient(180deg, #BABABA 0%, #FFF 25.52%, #FFF 28.13%)',
-    maxWidth: '400px'
+    background: 'linear-gradient(180deg, rgba(186, 186, 186, 0.8) 0%, rgba(255, 255, 255, 0.8) 25.52%, rgba(255, 255, 255, 0.8) 28.13%)',
+    maxWidth: '400px',
+    color: '#000'
   };
   return (
     <React.Fragment>
-      <Container style={containerStyle}>
+      <Container
+        style={containerStyle}
+      >
         <Box display={'flex'} justifyContent={'center'} mt={5} pt={5} pb={5}>
           <LogoCustom />
         </Box>

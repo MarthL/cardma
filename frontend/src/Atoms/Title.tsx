@@ -14,7 +14,7 @@ export const Title = (props: TitleProps) => {
     <React.Fragment>
       <Box display={'flex'} flexDirection={'column'} mt={2} mb={2}>
         <Box component={'div'}>
-          <Typography variant="body1" color="#00628c" textAlign={'center'}>{surname} {name}</Typography>
+          <Typography variant="body1" color="#00628c" fontWeight={'bold'} fontSize={'25px'} textAlign={'center'}>{surname} {name}</Typography>
         </Box>
         <Box component={'div'}>
           <Typography variant="subtitle1" color="#00a9c2" textAlign={'center'}>{position}</Typography>

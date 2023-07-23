@@ -1,55 +1,57 @@
-# Nom de Votre Projet
+# Card Project
 
-Le projet Card est une OnePage esthétique développée en ReactJS avec TypeScript, conçue pour offrir une expérience en ligne fluide et agréable. L'objectif principal de ce projet est de proposer un modèle de site web moderne et personnalisable pour les clients. Inspiré par le concept de card.pm, une plateforme proposant des cartes en ligne pour ses utilisateurs, ce template permet aux clients de présenter leurs informations de manière élégante et convaincante.
+The Card project is an aesthetic OnePage developed in ReactJS with TypeScript, designed to offer a smooth and pleasant online experience. The main goal of this project is to provide a modern and customizable website template for clients. Inspired by the concept of card.pm, a platform offering online cards for its users, this template allows clients to present their information in an elegant and compelling manner.
 
-Le site OnePage est facilement personnalisable grâce à l'utilisation de props dans ReactJS, ce qui permet de modifier facilement les contenus, les couleurs et les mises en page pour s'adapter aux besoins et aux préférences de chaque client. Avec une base solide en TypeScript, le projet offre également une robustesse et une maintenabilité accrues, facilitant ainsi son évolution à l'avenir.
+The OnePage website is easily customizable using props in ReactJS, which allows for easy modification of content, colors, and layouts to suit the needs and preferences of each client. With a strong TypeScript foundation, the project also offers increased robustness and maintainability, making it easier to evolve in the future.
 
-Que ce soit pour un portfolio personnel, une présentation de projet, ou tout autre usage, cette Card offre une solution élégante, moderne et réactive pour mettre en valeur les informations et captiver les visiteurs.
+Whether it's for a personal portfolio, a project presentation, or any other use, this Card provides an elegant, modern, and responsive solution to showcase information and captivate visitors.
 
-![Aperçu du Projet](/frontend/public/demo.png)
+<p align="center" width="100%">
+<img width="33%" src="https://github.com/MarthL/cardma/blob/master/frontend/public/demo.png?raw=true" />
+</p>
 
-## Table des matières
+## Table of Contents
 
-- [A propos du Projet](#a-propos-du-projet)
-  - [Technologies Utilisées](#technologies-utilisées)
+- [About the project](#about-the-project)
+  - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Utilisation](#utilisation)
-- [Personnalisation](#personnalisation)
-- [Contribuer](#contribuer)
-- [License](#license)
+- [Usage](#usage)
+- [Customization](#customization)
 
-## A propos du Projet
+## About the project
 
-[Votre Projet](lien_vers_le_projet) est une OnePage esthétique développée en ReactJS avec Typescript, conçue pour être facilement personnalisable pour les clients. Il s'inspire du concept de card.pm, une plateforme proposant des cartes en ligne pour ses clients.
-
-### Technologies Utilisées
+### Technologies Used
 
 - ReactJS
 - TypeScript
 
 ## Installation
 
-Pour installer et exécuter ce projet localement sur votre machine, suivez ces étapes :
+To install and run this project locally on your machine, follow these steps:
 
-1. Cloner ce dépôt de code :
+1. Clone this code repository:
 
 ```bash
 git clone https://github.com/MarthL/cardma.git
+```
 
-2. Installez les dépendances du projet :
+2. Install project dependencies:
 
 ```bash
 npm install
+```
 
-3. Lancez le projet en local
+3. Launch the project locally:
 
 ```bash
 npm run start
+```
 
-Le projet se lance par défault sur le port 3000
+The project will be launched on the default port 3000.
 
-## Personnalisation
-Ce projet est conçu pour être facilement personnalisable. Vous pouvez ajuster les paramètres et les contenus du projet en utilisant les props. Voici quelques fichiers et répertoires clés que vous pouvez explorer pour personnaliser le projet :
 
-src/components: Ce répertoire contient les composants réutilisables du projet.
-src/Organisms/Main.tsx: Le fichier principal de l'application où vous pouvez modifier la mise en page globale et la structure. Pour ce faire, vous n'avez qu'a modifier les props
+## Customization
+This project is designed to be easily customizable. You can adjust the project's settings and content using props. Here are some key files and directories you can explore to customize the project:
+
+src/components: This directory contains reusable components of the project.
+src/Organisms/Main.tsx: The main file of the application where you can modify the overall layout and structure. To do this, simply adjust the props.

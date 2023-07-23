@@ -10,7 +10,7 @@ export const QrCodeCustom = (props: QRCodeProps) => {
   const { value } = props;
   return (
     <React.Fragment>
-      <QRCodeCanvas value={value} />
+      <QRCodeCanvas value={value} bgColor="rgba(255, 255, 255, 0)" />
     </React.Fragment>
   )
 }

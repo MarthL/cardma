@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.css';
+import { Main } from './Organisms/Main';
 
 export const App = () => {
   return (
-    <>test</>
+    <React.Fragment>
+      <Main />
+    </React.Fragment>
   );
 }
 

@@ -1,6 +1,6 @@
 # Card Project
 
-The Card project is an aesthetic OnePage developed in ReactJS with TypeScript, designed to offer a smooth and pleasant online experience. The main goal of this project is to provide a modern and customizable website template for clients. Inspired by the concept of card.pm, a platform offering online cards for its users, this template allows clients to present their information in an elegant and compelling manner.
+The Card project is an aesthetic OnePage developed in ReactJS with TypeScript, designed to offer a smooth and pleasant online experience fully responsive. The main goal of this project is to provide a modern and customizable website template for clients. Inspired by the concept of card.pm, a platform offering online cards for its users, this template allows clients to present their information in an elegant and compelling manner.
 
 The OnePage website is easily customizable using props in ReactJS, which allows for easy modification of content, colors, and layouts to suit the needs and preferences of each client. With a strong TypeScript foundation, the project also offers increased robustness and maintainability, making it easier to evolve in the future.
 

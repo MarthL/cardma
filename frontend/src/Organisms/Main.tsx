@@ -35,8 +35,14 @@ export const Main = () => {
         <Box display={'flex'} justifyContent={'center'} mt={3}>
           <QuoteCustom />
         </Box>
-        <Box display={'flex'} justifyContent={'center'} mt={2}>
-          <LinkCustom icon="LocalPhone" value="06.20.36.34.32" />
+        <Box display={'flex'} flexDirection={'column'} gap={2} mt={2}>
+          <LinkCustom icon="SmartphoneOutlined" value="06.20.36.34.32" />
+          <LinkCustom icon="EmailOutlined" value="martin.aubertin@gmail.com" />
+          <LinkCustom icon="LinkedIn" value="LinkedIn" color="#0077B5" link="https://www.linkedin.com/in/martin-aubertin-webdev/" />
+          <LinkCustom icon="Twitter" value="Twitter" color="#55ACEE" />
+          <LinkCustom icon="YouTube" value="Youtube" color="red" />
+          <LinkCustom icon="Instagram" value="Instagram" color="#DD2A7B" />
+          <LinkCustom icon="FacebookOutlined" value="Facebook" />
         </Box>
       </Container>
     </React.Fragment >

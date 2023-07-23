@@ -55,3 +55,5 @@ This project is designed to be easily customizable. You can adjust the project's
 
 src/components: This directory contains reusable components of the project.
 src/Organisms/Main.tsx: The main file of the application where you can modify the overall layout and structure. To do this, simply adjust the props.
+
+All the Links are fully customizable, you can easily use the component 'LinkCustom' in order to generate your own links and generate your own icons. icon props is linked to Material-icons and take as parameter the name of the icon you want with a url to specify.

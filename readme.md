@@ -6,7 +6,7 @@ Le site OnePage est facilement personnalisable grâce à l'utilisation de props 
 
 Que ce soit pour un portfolio personnel, une présentation de projet, ou tout autre usage, cette Card offre une solution élégante, moderne et réactive pour mettre en valeur les informations et captiver les visiteurs.
 
-![Aperçu du Projet](lien_vers_une_capture_d_ecran_ou_une_image.gif)
+![Aperçu du Projet](/frontend/public/demo.png)
 
 ## Table des matières
 
